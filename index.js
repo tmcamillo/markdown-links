@@ -1,4 +1,4 @@
-function getLinksFromMd(str) {
+const getLinksFromMd = (str) => {
   const regexUrl = new RegExp(/(?<=\().+?(?=\))/g);
   const regexTxt = new RegExp(/(?<=\[).+?(?=\])/g);
 
@@ -11,6 +11,6 @@ function getLinksFromMd(str) {
   });
 
   return obj;
-}
+};
 
 module.exports = getLinksFromMd;
