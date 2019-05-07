@@ -22,7 +22,6 @@ console.log(getLinksFromMd(input));
 
 ```
 
-
 ## roadmap oficial do projeto*
 
 ### Versão 3.0.0
