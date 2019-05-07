@@ -11,7 +11,7 @@ $  npm install markdown-links
 ## Como utilizar:
 
 ```javascript
-const getLinksFromMd = require('markdown-links');
+const getLinksFromMd = require('markdown-linkstmc');
 const input = 'Lorem ipsum Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
 console.log(getLinksFromMd(input));
 
