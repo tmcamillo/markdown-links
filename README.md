@@ -5,7 +5,7 @@
 ## Como instalar:
 
 
-$  npm install markdown-links
+$  npm install markdown-linkstmc
 
 
 ## Como utilizar:
